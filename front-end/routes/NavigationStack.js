@@ -12,14 +12,26 @@ import LogIn from "../Screens/LogIn"
 
 
 const screens = {
+  LogoScreen: 
+  {
+    screen: LogoScreen,
+    navigationOptions: {
+      headerShown: false
+    },
+  },
   Home: {
     screen: Home,
+    navigationOptions: 
+    {
+      headerLeft: null
+    },
   },
+  CreateListing: 
+  {
+      screen: CreateListing,
+    },
   Menu: {
     screen: Menu,
-  },
-  CreateListing: {
-    screen: CreateListing,
   },
   AvailableListing: {
     screen: AvailableListing,
@@ -32,10 +44,6 @@ const screens = {
   },
   BusRoute: {
     screen: BusRoute,
-  },
-  LogoScreen: 
-  {
-    screen: LogoScreen,
   },
   LogIn: {
     screen: LogIn,
