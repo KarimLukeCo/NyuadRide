@@ -5,7 +5,8 @@ import { NativeBaseProvider, Box, Center, Square, Circle  } from "native-base";
 
 export default function LogoScreen({navigation}) {
 
-  useEffect(() => {
+  useEffect(() => 
+  {
     const timeout = setTimeout(() => {
       navigation.navigate('Home'); // Navigate to the 'Home' screen
     }, 3000); // Delay in milliseconds (3 seconds)
